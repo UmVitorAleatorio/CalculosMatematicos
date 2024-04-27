@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.labelTitulo = new System.Windows.Forms.Label();
             this.digiteN1 = new System.Windows.Forms.Label();
             this.txtN1 = new System.Windows.Forms.TextBox();
@@ -112,7 +113,6 @@
             this.txtResult.ReadOnly = true;
             this.txtResult.Size = new System.Drawing.Size(69, 38);
             this.txtResult.TabIndex = 6;
-            this.txtResult.TextChanged += new System.EventHandler(this.txtResult_TextChanged);
             // 
             // btnSoma
             // 
@@ -230,6 +230,7 @@
             this.Controls.Add(this.digiteN1);
             this.Controls.Add(this.labelTitulo);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.ImeMode = System.Windows.Forms.ImeMode.Disable;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

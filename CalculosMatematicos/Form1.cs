@@ -66,11 +66,6 @@ namespace CalculosMatematicos
             txtN1.Focus();
         }
 
-        private void txtResult_TextChanged(object sender, EventArgs e)
-        {
-            
-        }
-
         private void btnSoma_Click(object sender, EventArgs e)
         {
             n1 = Convert.ToDouble(txtN1.Text);
